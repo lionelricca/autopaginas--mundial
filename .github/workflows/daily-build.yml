@@ -24,6 +24,11 @@ jobs:
         run: |
           python AutoPaginas-Mundial/generator/generate.py
 
+      - name: Copy generated site to root docs
+        run: |
+          rm -rf docs
+          cp -r AutoPaginas-Mundial/docs docs
+
       - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
