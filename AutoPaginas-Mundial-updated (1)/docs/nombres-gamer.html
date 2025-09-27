@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Nombres Gamer</title>
+    <meta name="description" content="Nombres únicos para jugadores y gamers.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <script>
+    function filterList() {
+        const input = document.getElementById('searchInput');
+        const filter = input.value.toLowerCase();
+        const items = document.querySelectorAll('#items li');
+        items.forEach(item => {
+            const text = item.textContent.toLowerCase();
+            item.style.display = text.includes(filter) ? '' : 'none';
+        });
+    }
+    </script>
+</head>
+<body>
+    <h1>Nombres Gamer</h1>
+    <p>Nombres únicos para jugadores y gamers.</p>
+    <input type="text" id="searchInput" class="search" placeholder="Buscar..." oninput="filterList()">
+    <div class="adslot">Zona de monetización</div>
+    <ul id="items">
+        <li>Neón Constructores</li>
+        <li>Neón Creadores</li>
+        <li>Galáctico Jugadores</li>
+        <li>Cibernético Rangers</li>
+        <li>Eléctrico Guerreros</li>
+        <li>Cósmico Magos</li>
+        <li>Cósmico Piratas</li>
+        <li>Pixelado Exploradores</li>
+        <li>Galáctico Campeones</li>
+        <li>Lunar Piratas</li>
+        <li>Cibernético Constructores</li>
+        <li>Galáctico Cohetes</li>
+        <li>Ápex Programadores</li>
+        <li>Pixelado Dragones</li>
+        <li>Solar Dragones</li>
+        <li>Carmesí Guardianes</li>
+        <li>Cósmico Campeones</li>
+        <li>Futurista Campeones</li>
+        <li>Cibernético Pioneros</li>
+        <li>Tecnológico Titanes</li>
+        <li>Fantasma Pioneros</li>
+        <li>Ápex Jugadores</li>
+        <li>Futurista Innovadores</li>
+        <li>Atómico Guerreros</li>
+        <li>Nexo Innovadores</li>
+        <li>Mega Campeones</li>
+        <li>Nexo Titanes</li>
+        <li>Ápex Jugadores</li>
+        <li>Solar Titanes</li>
+        <li>Cripto Guerreros</li>
+        <li>Ápex Innovadores</li>
+        <li>Mega Campeones</li>
+        <li>Fantasma Magos</li>
+        <li>Ápex Exploradores</li>
+        <li>Mega Innovadores</li>
+        <li>Neón Ninjas</li>
+        <li>Futurista Constructores</li>
+        <li>Solar Dragones</li>
+        <li>Pixelado Guardianes</li>
+        <li>Cósmico Cohetes</li>
+        <li>Pixelado Guerreros</li>
+        <li>Galáctico Campeones</li>
+        <li>Ápex Constructores</li>
+        <li>Neón Campeones</li>
+        <li>Nexo Magos</li>
+        <li>Galáctico Creadores</li>
+        <li>Mega Titanes</li>
+        <li>Fantasma Titanes</li>
+        <li>Fantasma Jugadores</li>
+        <li>Atómico Piratas</li>
+        <li>Rápido Creadores</li>
+        <li>Pixelado Titanes</li>
+        <li>Neón Cohetes</li>
+        <li>Neón Rangers</li>
+        <li>Pixelado Pioneros</li>
+        <li>Cibernético Programadores</li>
+        <li>Mega Guardianes</li>
+        <li>Ápex Piratas</li>
+        <li>Futurista Exploradores</li>
+        <li>Cripto Cohetes</li>
+        <li>Rápido Innovadores</li>
+        <li>Tecnológico Pioneros</li>
+        <li>Eléctrico Exploradores</li>
+        <li>Cuántico Hackers</li>
+        <li>Rápido Guardianes</li>
+        <li>Hipernova Hackers</li>
+        <li>Galáctico Mavericks</li>
+        <li>Galáctico Magos</li>
+        <li>Atómico Piratas</li>
+        <li>Nexo Jugadores</li>
+        <li>Lunar Jugadores</li>
+        <li>Fantasma Programadores</li>
+        <li>Cibernético Rangers</li>
+        <li>Ápex Guerreros</li>
+        <li>Carmesí Guerreros</li>
+        <li>Carmesí Rangers</li>
+        <li>Cibernético Innovadores</li>
+        <li>Hipernova Exploradores</li>
+        <li>Rápido Hackers</li>
+        <li>Ápex Innovadores</li>
+        <li>Lunar Constructores</li>
+        <li>Tecnológico Guerreros</li>
+        <li>Mega Constructores</li>
+        <li>Cósmico Hackers</li>
+        <li>Eléctrico Exploradores</li>
+        <li>Solar Hackers</li>
+        <li>Galáctico Exploradores</li>
+        <li>Cibernético Titanes</li>
+        <li>Futurista Constructores</li>
+        <li>Cuántico Exploradores</li>
+        <li>Carmesí Mavericks</li>
+        <li>Cibernético Innovadores</li>
+        <li>Solar Rangers</li>
+        <li>Futurista Guerreros</li>
+        <li>Futurista Guardianes</li>
+        <li>Cósmico Creadores</li>
+        <li>Rápido Creadores</li>
+        <li>Tecnológico Pioneros</li>
+        <li>Solar Cohetes</li>
+        <li>Futurista Constructores</li>
+    </ul>
+    
+    <div class="adslot">
+      <p><strong>¿Te gusta este sitio?</strong> Si quieres apoyarlo, puedes enviar
+      una contribución directamente a la billetera del proyecto:</p>
+      <p><code>0xDC6740245e026A19ea9EE2B62968ea8aeFFEAb16</code></p>
+      <button onclick="navigator.clipboard.writeText('0xDC6740245e026A19ea9EE2B62968ea8aeFFEAb16')">Copiar dirección</button>
+      <p><a href="ethereum:0xDC6740245e026A19ea9EE2B62968ea8aeFFEAb16" target="_blank">Abrir en tu monedero (MetaMask u otro)</a></p>
+    </div>
+    
+    <p><a href="index.html">Inicio / Home</a></p>
+</body>
+</html>

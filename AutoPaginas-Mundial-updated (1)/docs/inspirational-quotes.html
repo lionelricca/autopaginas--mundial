@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Inspirational Quotes</title>
+    <meta name="description" content="Daily dose of inspirational phrases.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <script>
+    function filterList() {
+        const input = document.getElementById('searchInput');
+        const filter = input.value.toLowerCase();
+        const items = document.querySelectorAll('#items li');
+        items.forEach(item => {
+            const text = item.textContent.toLowerCase();
+            item.style.display = text.includes(filter) ? '' : 'none';
+        });
+    }
+    </script>
+</head>
+<body>
+    <h1>Inspirational Quotes</h1>
+    <p>Daily dose of inspirational phrases.</p>
+    <input type="text" id="searchInput" class="search" placeholder="Search..." oninput="filterList()">
+    <div class="adslot">Zona de monetización</div>
+    <ul id="items">
+        <li>Happiness is a journey, not a destination.</li>
+        <li>Chase your the magic within.</li>
+        <li>Happiness is pushing forward.</li>
+        <li>Success is a choice, not a result.</li>
+        <li>Happiness is about learning and growing.</li>
+        <li>Happiness is a new beginning.</li>
+        <li>Success is a journey, not a destination.</li>
+        <li>Believe in about learning and growing.</li>
+        <li>Success is a state of mind.</li>
+        <li>Embrace a new beginning.</li>
+        <li>Embrace to be yourself.</li>
+        <li>Every day is a state of mind.</li>
+        <li>Every day is the magic within.</li>
+        <li>Embrace to be yourself.</li>
+        <li>Keep a choice, not a result.</li>
+        <li>Never forget a new beginning.</li>
+        <li>Love is a journey, not a destination.</li>
+        <li>Happiness is to be yourself.</li>
+        <li>Embrace about learning and growing.</li>
+        <li>Every day is about learning and growing.</li>
+        <li>Believe in a state of mind.</li>
+        <li>Keep a state of mind.</li>
+        <li>Embrace pushing forward.</li>
+        <li>Life is the magic within.</li>
+        <li>Embrace a state of mind.</li>
+        <li>Embrace your inner strength.</li>
+        <li>Chase your about learning and growing.</li>
+        <li>Embrace the magic within.</li>
+        <li>Life is pushing forward.</li>
+        <li>Chase your the magic within.</li>
+        <li>Every day is to be yourself.</li>
+        <li>Every day is a state of mind.</li>
+        <li>Embrace pushing forward.</li>
+        <li>Chase your to be yourself.</li>
+        <li>Success is a choice, not a result.</li>
+        <li>Never forget your inner strength.</li>
+        <li>Love is about learning and growing.</li>
+        <li>Chase your a new beginning.</li>
+        <li>Happiness is the magic within.</li>
+        <li>Success is always around the corner.</li>
+        <li>Love is always around the corner.</li>
+        <li>Keep to be yourself.</li>
+        <li>Life is to be yourself.</li>
+        <li>Believe in a new beginning.</li>
+        <li>Chase your a state of mind.</li>
+        <li>Happiness is about learning and growing.</li>
+        <li>Embrace the magic within.</li>
+        <li>Love is a choice, not a result.</li>
+        <li>Life is the magic within.</li>
+        <li>Chase your to be yourself.</li>
+        <li>Never forget the magic within.</li>
+        <li>Embrace a state of mind.</li>
+        <li>Chase your to be yourself.</li>
+        <li>Chase your your inner strength.</li>
+        <li>Happiness is your inner strength.</li>
+        <li>Success is always around the corner.</li>
+        <li>Never forget a new beginning.</li>
+        <li>Love is your inner strength.</li>
+        <li>Happiness is to be yourself.</li>
+        <li>Happiness is about learning and growing.</li>
+        <li>Never forget a journey, not a destination.</li>
+        <li>Keep a journey, not a destination.</li>
+        <li>Happiness is always around the corner.</li>
+        <li>Every day is pushing forward.</li>
+        <li>Life is pushing forward.</li>
+        <li>Keep a journey, not a destination.</li>
+        <li>Life is a state of mind.</li>
+        <li>Never forget to be yourself.</li>
+        <li>Never forget about learning and growing.</li>
+        <li>Embrace pushing forward.</li>
+        <li>Never forget always around the corner.</li>
+        <li>Every day is to be yourself.</li>
+        <li>Keep a choice, not a result.</li>
+        <li>Love is your inner strength.</li>
+        <li>Every day is a new beginning.</li>
+        <li>Happiness is the magic within.</li>
+        <li>Life is the magic within.</li>
+        <li>Embrace the magic within.</li>
+        <li>Chase your a state of mind.</li>
+        <li>Chase your always around the corner.</li>
+        <li>Chase your a choice, not a result.</li>
+        <li>Chase your your inner strength.</li>
+        <li>Success is the magic within.</li>
+        <li>Happiness is always around the corner.</li>
+        <li>Keep pushing forward.</li>
+        <li>Never forget pushing forward.</li>
+        <li>Love is about learning and growing.</li>
+        <li>Keep a state of mind.</li>
+        <li>Every day is pushing forward.</li>
+        <li>Embrace a choice, not a result.</li>
+        <li>Life is always around the corner.</li>
+        <li>Success is a new beginning.</li>
+        <li>Chase your pushing forward.</li>
+        <li>Keep a new beginning.</li>
+        <li>Success is always around the corner.</li>
+        <li>Success is about learning and growing.</li>
+        <li>Happiness is always around the corner.</li>
+        <li>Success is a journey, not a destination.</li>
+        <li>Chase your about learning and growing.</li>
+        <li>Keep a new beginning.</li>
+    </ul>
+    
+    <div class="adslot">
+      <p><strong>¿Te gusta este sitio?</strong> Si quieres apoyarlo, puedes enviar
+      una contribución directamente a la billetera del proyecto:</p>
+      <p><code>0xDC6740245e026A19ea9EE2B62968ea8aeFFEAb16</code></p>
+      <button onclick="navigator.clipboard.writeText('0xDC6740245e026A19ea9EE2B62968ea8aeFFEAb16')">Copiar dirección</button>
+      <p><a href="ethereum:0xDC6740245e026A19ea9EE2B62968ea8aeFFEAb16" target="_blank">Abrir en tu monedero (MetaMask u otro)</a></p>
+    </div>
+    
+    <p><a href="index.html">Inicio / Home</a></p>
+</body>
+</html>
