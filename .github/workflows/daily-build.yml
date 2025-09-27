@@ -20,14 +20,14 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Generate content
-        run: |
-          python AutoPaginas-Mundial/generator/generate.py
+    - name: Generate content
+      run: |
+        python 'AutoPaginas-Mundial-updated (1)/generator/generate.py'
 
-      - name: Copy generated site to root docs
-        run: |
-          rm -rf docs
-          cp -r AutoPaginas-Mundial/docs docs
+    - name: Copy generated site to root docs
+      run: |
+        rm -rf docs
+        cp -r 'AutoPaginas-Mundial-updated (1)/docs' do
 
       - name: Commit and push changes
         run: |
