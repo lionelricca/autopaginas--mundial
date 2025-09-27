@@ -27,7 +27,7 @@ jobs:
     - name: Copy generated site to root docs
       run: |
         rm -rf docs
-        cp -r 'AutoPaginas-Mundial-updated (1)/docs' do
+        cp -r 'AutoPaginas-Mundial-updated (1)/docs' docs
 
       - name: Commit and push changes
         run: |
