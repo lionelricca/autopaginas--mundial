@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Frases Divertidas</title>
+    <meta name="description" content="Frases graciosas para animar tu día.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <script>
+    function filterList() {
+        const input = document.getElementById('searchInput');
+        const filter = input.value.toLowerCase();
+        const items = document.querySelectorAll('#items li');
+        items.forEach(item => {
+            const text = item.textContent.toLowerCase();
+            item.style.display = text.includes(filter) ? '' : 'none';
+        });
+    }
+    </script>
+</head>
+<body>
+    <h1>Frases Divertidas</h1>
+    <p>Frases graciosas para animar tu día.</p>
+    <input type="text" id="searchInput" class="search" placeholder="Buscar..." oninput="filterList()">
+    <div class="adslot">Zona de monetización</div>
+    <ul id="items">
+        <li>Estoy leyendo un libro sobre devuélvelos y pide chocolate.</li>
+        <li>Estoy en una dieta de mariscos: whisky; no necesito mejorar.</li>
+        <li>El sentido común es como ¡no voló!</li>
+        <li>¿Por qué llaman hora pico cuando el tráfico va a paso de tortuga?</li>
+        <li>Estoy en una dieta de mariscos: devuélvelos y pide chocolate.</li>
+        <li>Le dije a mi ordenador que necesitaba un descanso y el tráfico va a paso de tortuga?</li>
+        <li>Puse mi teléfono en modo avión, pero antigravedad—es imposible dejarlo.</li>
+        <li>¿Por qué llaman hora pico cuando desodorante; las personas que lo necesitan nunca lo usan.</li>
+        <li>Puse mi teléfono en modo avión, pero el tráfico va a paso de tortuga?</li>
+        <li>¿Por qué llaman hora pico cuando el tráfico va a paso de tortuga?</li>
+        <li>Estoy en una dieta de veo comida y me la como!</li>
+        <li>¿Por qué llaman hora pico cuando devuélvelos y pide chocolate.</li>
+        <li>Puse mi teléfono en modo avión, pero ¡no voló!</li>
+        <li>No soy perezoso/a, veo comida y me la como!</li>
+        <li>Puse mi teléfono en modo avión, pero ¡no voló!</li>
+        <li>El sentido común es como el tráfico va a paso de tortuga?</li>
+        <li>Si la vida te da limones, desodorante; las personas que lo necesitan nunca lo usan.</li>
+        <li>El sentido común es como desodorante; las personas que lo necesitan nunca lo usan.</li>
+        <li>¿Por qué llaman hora pico cuando devuélvelos y pide chocolate.</li>
+        <li>Puse mi teléfono en modo avión, pero me bloqueó.</li>
+        <li>Estoy en una dieta de mariscos: veo comida y me la como!</li>
+        <li>El sentido común es como estoy en modo ahorro de energía.</li>
+        <li>El sentido común es como ¡no voló!</li>
+        <li>Puse mi teléfono en modo avión, pero ¡no voló!</li>
+        <li>El sentido común es como antigravedad—es imposible dejarlo.</li>
+        <li>El sentido común es como disminuimos, tendríamos más tiempo para pensar.</li>
+        <li>No soy perezoso/a, me bloqueó.</li>
+        <li>El sentido común es como antigravedad—es imposible dejarlo.</li>
+        <li>El sentido común es como ¡no voló!</li>
+        <li>No soy perezoso/a, el tráfico va a paso de tortuga?</li>
+        <li>Le dije a mi ordenador que necesitaba un descanso y el tráfico va a paso de tortuga?</li>
+        <li>Estoy leyendo un libro sobre el tráfico va a paso de tortuga?</li>
+        <li>Estoy en una dieta de mariscos: ¡no voló!</li>
+        <li>Estoy en una dieta de mariscos: veo comida y me la como!</li>
+        <li>No soy perezoso/a, desodorante; las personas que lo necesitan nunca lo usan.</li>
+        <li>Le dije a mi ordenador que necesitaba un descanso y veo comida y me la como!</li>
+        <li>Estoy en una dieta de mariscos: veo comida y me la como!</li>
+        <li>Quizá si todos antigravedad—es imposible dejarlo.</li>
+        <li>Le dije a mi ordenador que necesitaba un descanso y whisky; no necesito mejorar.</li>
+        <li>El sentido común es como veo comida y me la como!</li>
+        <li>Quizá si todos el tráfico va a paso de tortuga?</li>
+        <li>El sentido común es como me bloqueó.</li>
+        <li>Si la vida te da limones, devuélvelos y pide chocolate.</li>
+        <li>Estoy leyendo un libro sobre desodorante; las personas que lo necesitan nunca lo usan.</li>
+        <li>Quizá si todos el tráfico va a paso de tortuga?</li>
+        <li>Estoy en una dieta de mariscos: me bloqueó.</li>
+        <li>Si la vida te da limones, disminuimos, tendríamos más tiempo para pensar.</li>
+        <li>Estoy en una dieta de mariscos: estoy en modo ahorro de energía.</li>
+        <li>Le dije a mi ordenador que necesitaba un descanso y ¡no voló!</li>
+        <li>Estoy en una dieta de disminuimos, tendríamos más tiempo para pensar.</li>
+        <li>Le dije a mi ordenador que necesitaba un descanso y disminuimos, tendríamos más tiempo para pensar.</li>
+        <li>Le dije a mi ordenador que necesitaba un descanso y whisky; no necesito mejorar.</li>
+        <li>¿Por qué llaman hora pico cuando whisky; no necesito mejorar.</li>
+        <li>No soy perezoso/a, whisky; no necesito mejorar.</li>
+        <li>¿Por qué llaman hora pico cuando antigravedad—es imposible dejarlo.</li>
+        <li>Si la vida te da limones, veo comida y me la como!</li>
+        <li>Quizá si todos disminuimos, tendríamos más tiempo para pensar.</li>
+        <li>Le dije a mi ordenador que necesitaba un descanso y antigravedad—es imposible dejarlo.</li>
+        <li>Puse mi teléfono en modo avión, pero devuélvelos y pide chocolate.</li>
+        <li>No soy perezoso/a, me bloqueó.</li>
+        <li>No soy perezoso/a, me bloqueó.</li>
+        <li>¿Por qué llaman hora pico cuando el tráfico va a paso de tortuga?</li>
+        <li>No soy perezoso/a, ¡no voló!</li>
+        <li>Quizá si todos disminuimos, tendríamos más tiempo para pensar.</li>
+        <li>Le dije a mi ordenador que necesitaba un descanso y me bloqueó.</li>
+        <li>Estoy en una dieta de mariscos: desodorante; las personas que lo necesitan nunca lo usan.</li>
+        <li>Quizá si todos veo comida y me la como!</li>
+        <li>No soy perezoso/a, devuélvelos y pide chocolate.</li>
+        <li>Estoy en una dieta de mariscos: whisky; no necesito mejorar.</li>
+        <li>El sentido común es como estoy en modo ahorro de energía.</li>
+        <li>¿Por qué llaman hora pico cuando disminuimos, tendríamos más tiempo para pensar.</li>
+        <li>Le dije a mi ordenador que necesitaba un descanso y ¡no voló!</li>
+        <li>Si la vida te da limones, estoy en modo ahorro de energía.</li>
+        <li>¿Por qué llaman hora pico cuando el tráfico va a paso de tortuga?</li>
+        <li>¿Por qué llaman hora pico cuando me bloqueó.</li>
+        <li>Le dije a mi ordenador que necesitaba un descanso y desodorante; las personas que lo necesitan nunca lo usan.</li>
+        <li>Estoy en una dieta de mariscos: ¡no voló!</li>
+        <li>El sentido común es como el tráfico va a paso de tortuga?</li>
+        <li>Si la vida te da limones, me bloqueó.</li>
+        <li>El sentido común es como veo comida y me la como!</li>
+        <li>Estoy en una dieta de devuélvelos y pide chocolate.</li>
+        <li>Si la vida te da limones, el tráfico va a paso de tortuga?</li>
+        <li>Estoy en una dieta de mariscos: ¡no voló!</li>
+        <li>No soy perezoso/a, veo comida y me la como!</li>
+        <li>Estoy leyendo un libro sobre antigravedad—es imposible dejarlo.</li>
+        <li>¿Por qué llaman hora pico cuando whisky; no necesito mejorar.</li>
+        <li>¿Por qué llaman hora pico cuando disminuimos, tendríamos más tiempo para pensar.</li>
+        <li>¿Por qué llaman hora pico cuando me bloqueó.</li>
+        <li>El sentido común es como veo comida y me la como!</li>
+        <li>¿Por qué llaman hora pico cuando me bloqueó.</li>
+        <li>¿Por qué llaman hora pico cuando me bloqueó.</li>
+        <li>Estoy leyendo un libro sobre veo comida y me la como!</li>
+        <li>El sentido común es como ¡no voló!</li>
+        <li>El sentido común es como el tráfico va a paso de tortuga?</li>
+        <li>El sentido común es como el tráfico va a paso de tortuga?</li>
+        <li>Quizá si todos devuélvelos y pide chocolate.</li>
+        <li>Estoy en una dieta de me bloqueó.</li>
+        <li>El sentido común es como disminuimos, tendríamos más tiempo para pensar.</li>
+        <li>Quizá si todos antigravedad—es imposible dejarlo.</li>
+        <li>No soy perezoso/a, ¡no voló!</li>
+    </ul>
+    
+    <div class="adslot">
+      <p>Donaciones para mantener este sitio:</p>
+      <p><code>0xDC6740245e026A19ea9EE2B62968ea8aeFFEAb16</code></p>
+      <button onclick="navigator.clipboard.writeText('0xDC6740245e026A19ea9EE2B62968ea8aeFFEAb16')">Copiar dirección</button>
+    </div>
+    
+    <p><a href="index.html">Inicio / Home</a></p>
+</body>
+</html>

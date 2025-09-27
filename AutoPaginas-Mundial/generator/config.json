@@ -1,0 +1,118 @@
+[
+  {
+    "slug": "cool-tiktok-bios",
+    "title": "Cool TikTok Bios",
+    "description": "Get inspired with cool TikTok bios to make your profile stand out.",
+    "kind": "bios",
+    "language": "en"
+  },
+  {
+    "slug": "funny-tiktok-bios",
+    "title": "Funny TikTok Bios",
+    "description": "Find humorous TikTok bio ideas for your profile.",
+    "kind": "bios",
+    "language": "en"
+  },
+  {
+    "slug": "inspirational-tiktok-bios",
+    "title": "Inspirational TikTok Bios",
+    "description": "Motivating TikTok bio ideas for positive vibes.",
+    "kind": "bios",
+    "language": "en"
+  },
+  {
+    "slug": "tech-team-names",
+    "title": "Tech Team Names",
+    "description": "Creative team names for hackathons and projects.",
+    "kind": "names",
+    "language": "en"
+  },
+  {
+    "slug": "gamer-tags",
+    "title": "Gamer Tags",
+    "description": "Unique gaming usernames for online adventures.",
+    "kind": "names",
+    "language": "en"
+  },
+  {
+    "slug": "business-name-ideas",
+    "title": "Business Name Ideas",
+    "description": "Catchy business names for new ventures.",
+    "kind": "names",
+    "language": "en"
+  },
+  {
+    "slug": "inspirational-quotes",
+    "title": "Inspirational Quotes",
+    "description": "Daily dose of inspirational phrases.",
+    "kind": "phrases",
+    "language": "en",
+    "style": "inspirational"
+  },
+  {
+    "slug": "funny-quotes",
+    "title": "Funny Quotes",
+    "description": "Light-hearted and witty phrases to brighten your day.",
+    "kind": "phrases",
+    "language": "en",
+    "style": "funny"
+  },
+  {
+    "slug": "bios-tiktok-geniales",
+    "title": "Bios de TikTok Geniales",
+    "description": "Encuentra bios geniales para tu perfil de TikTok.",
+    "kind": "bios",
+    "language": "es"
+  },
+  {
+    "slug": "bios-tiktok-graciosas",
+    "title": "Bios de TikTok Graciosas",
+    "description": "Ideas de bios divertidas para TikTok.",
+    "kind": "bios",
+    "language": "es"
+  },
+  {
+    "slug": "bios-tiktok-inspiradoras",
+    "title": "Bios de TikTok Inspiradoras",
+    "description": "Ideas de bios motivadoras para TikTok.",
+    "kind": "bios",
+    "language": "es"
+  },
+  {
+    "slug": "nombres-de-equipos-tecnologia",
+    "title": "Nombres de Equipos de Tecnología",
+    "description": "Nombres creativos para equipos de hackathons y proyectos.",
+    "kind": "names",
+    "language": "es"
+  },
+  {
+    "slug": "nombres-gamer",
+    "title": "Nombres Gamer",
+    "description": "Nombres únicos para jugadores y gamers.",
+    "kind": "names",
+    "language": "es"
+  },
+  {
+    "slug": "ideas-nombres-negocios",
+    "title": "Ideas de Nombres de Negocios",
+    "description": "Nombres llamativos para nuevos negocios.",
+    "kind": "names",
+    "language": "es"
+  },
+  {
+    "slug": "frases-inspiradoras",
+    "title": "Frases Inspiradoras",
+    "description": "Frases motivadoras para tu día.",
+    "kind": "phrases",
+    "language": "es",
+    "style": "inspirational"
+  },
+  {
+    "slug": "frases-divertidas",
+    "title": "Frases Divertidas",
+    "description": "Frases graciosas para animar tu día.",
+    "kind": "phrases",
+    "language": "es",
+    "style": "funny"
+  }
+]
